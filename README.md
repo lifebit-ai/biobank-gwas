@@ -8,7 +8,7 @@ Read more about parameters [here](https://github.com/lifebit-ai/biobank-gwas/doc
 ```bash
 nextflow run main.nf \
   --grm_plink_input "s3://lifebit-featured-datasets/pipelines/simulate/ukb-simulated-results/simulated_hapgen-100000ind-updated.merged.*{bed,bim,fam}" \
-  --pheno_data "s3://lifebit-featured-datasets/pipelines/biobank-gwas/cb_binary_pheno.phe" \
+  --pheno_data "s3://lifebit-featured-datasets/pipelines/biobank-gwas/traits_design_matrix_control_all_case_2.phe" \
   --trait_type "binary" \
-  --vcfs_list "s3://lifebit-featured-datasets/pipelines/simulate/ukb-simulated-results/vcfs_ukbio.csv" \
+  --vcfs_list "s3://lifebit-featured-datasets/pipelines/simulate/ukb-simulated-results/vcfs_ukbio.csv"
 ```
