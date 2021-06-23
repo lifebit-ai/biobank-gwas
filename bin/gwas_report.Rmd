@@ -16,7 +16,7 @@ params:
   trait_type: 'binary'
   saige_results: "saige_results_top_n.csv"
   ldsc_log: "None"
-title: "`r paste0('Genomics England GWAS Report' , '') `"
+title: "`r paste0('GWAS Report' , '') `"
 author: ""
 date: ""
 ---
